@@ -1,0 +1,21 @@
+{
+    "name": "sximocrud/lang",
+    "description": "Language package for sximocrud script",
+    "keywords": ["lang", "crud", "laravel", "sximo", "cms"],
+    "license": "Apache license",
+    "authors": [
+        {
+            "name": "Daniel Dourdaine",
+            "email": "game.fanpage@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Sximolang": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
