@@ -201,4 +201,34 @@ return array(
 	"dashboard_submodule_03" => "Manage Menu for your application frontend or backend",//sixmolang update
 	"dashboard_module_04" => "Users & Groups",//sixmolang update
 	"dashboard_submodule_04" => "Manage groups and users and grant what module and menu are accesible",//sixmolang update
+
+	/* Home page Template */
+	"fr_home_login" => "Log In",//sixmolang update
+	"fr_home_register" => "Registration",//sixmolang update
+	"fr_home_profile" => "My Profile",//sixmolang update
+	"fr_recaaptcha" => "Are u human ?",//sixmolang update
+	"fr_backlogin" => "Back to Login",//sixmolang update
+	"fr_backsite" => "Back to Site",//sixmolang update
+	"fr_forgetpassword" => "Forgot password?",//sixmolang update
+	"fr_noaccount" => "Do not have an account?",//sixmolang update
+	"fr_createaccount" => "Create an account",//sixmolang update
+	"m_mainsite" => "Main Site",//sixmolang update
+	"m_badgenew" =>"New",//sixmolang update
+	"fr_copyright" => "Copyright 2014",//sixmolang update
+	"fr_copyright_rights" => "ALL Rights Reserved.",//sixmolang update
+	"fr_modaltitle" => "Modal title",//sixmolang update
+	"fr_masterrecord" => "Record Master : ",//sixmolang update
+
+	/* Profile */
+	"fr_myprofile" => "Account",//sixmolang update
+	"fr_submyprofile" => "View Detail My Info",//sixmolang update
+	"fr_profileusername" => "Username",//sixmolang update
+	"fr_profileavatar" => "Avatar",//sixmolang update
+	"fr_profileupavatar" => "Upload Avatar Image",//sixmolang update
+	"fr_profilechangeavatar" => "Change",//sixmolang update
+	"fr_imagedimension" => "Image Dimension 80 x 80 px",//sixmolang update
+	"fr_remindnew" => "New Password",//sixmolang update
+	"fr_remindnewagain" => "Re-type Password",//sixmolang update
+	"fr_remindreset" => "Reset My Password",//sixmolang update
+	"fr_lastlogin" => "Last Login",//sixmolang update
 );

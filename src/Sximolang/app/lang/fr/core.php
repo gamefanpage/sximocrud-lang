@@ -63,18 +63,18 @@ return array(
 	"t_generalsettingsmall" => "Gérer les paramètres du site", // updated apidevlab
 	"t_blastemail" => "Email de masse", // updated apidevlab
 	"t_blastemailsmall" => "Envoyer vos Emailings",
-	"t_emailtemplate" => "Email Templates",
-	"t_emailtemplatesmall" => "Manage Email Templates", // updated apidevlab
-	"t_loginsecurity" => "Login & Security", // updated apidevlab
-	"t_loginsecuritysmall" => "Manage Logins & Security",    // updated apidevlab
-	"t_socialmedia" => "Social Media Login", // updated apidevlab
-	"t_lfb" => "Login via Facebook", // updated apidevlab
-	"t_lgoogle" => "Login via Google", // updated apidevlab
-	"t_ltwit" => "Login via Twitter", // updated apidevlab
+	"t_emailtemplate" => "Modèle d'email",
+	"t_emailtemplatesmall" => "Gérer les modèles d'email", // updated apidevlab
+	"t_loginsecurity" => "Connection & Sécurité", // updated apidevlab
+	"t_loginsecuritysmall" => "Gestion des Identifiants & Sécurité",    // updated apidevlab
+	"t_socialmedia" => "Connection réseaux sociaux", // updated apidevlab
+	"t_lfb" => "Connectez-vous via Facebook", // updated apidevlab
+	"t_lgoogle" => "Connectez-vous via Google", // updated apidevlab
+	"t_ltwit" => "Connectez-vous via Twitter", // updated apidevlab
 	"tab_siteinfo" => "Paramètres Généraux", // Site Info updated apidevlab
-	"tab_loginsecurity" => "Login & Security",
+	"tab_loginsecurity" => "Identifiants & Sécurité",
 	"tab_email" => "Modèle d'envoie d'email", // updated apidevlab
-	"fr_appname" => "Now du Site ",
+	"fr_appname" => "Nom du Site ",
 	"fr_appdesc" => "Description du Site",
 	"fr_comname" => "Nom de l'entreprise",
 	"fr_emailsys" => "Courriel Générale",
@@ -171,7 +171,7 @@ return array(
 	"fr_modmanualsql" => "Manual Mysql Statment ",
 
 	/*updates	on may ,5 2014 */
-	"loginsocial" => "Login via Social Networking", // updated apidevlab
+	"loginsocial" => "Se connecter via Reseaux Sociaux", // updated apidevlab
 	"enteremailforgot" => "Enter Your Email Address",
 	"detail" => "View Detail",
 	"addedit" => "Add - Edit",
@@ -201,4 +201,34 @@ return array(
 	"dashboard_submodule_03" => "Gérer les Menus pour votre interface d'application ou backend",//sixmolang update
 	"dashboard_module_04" => "Utulisateurs & Groupes",//sixmolang update
 	"dashboard_submodule_04" => "Gérer les groupes et les utilisateurs et leur attribuer des permissions d'accès",//sixmolang update
+
+	/* Home page Template */
+	"fr_home_login" => "S'identifier",//sixmolang update
+	"fr_home_register" => "S'enregistrer",//sixmolang update
+	"fr_home_profile" => "Mon Profil",//sixmolang update
+	"fr_recaaptcha" => "Etes-vous humain ?",//sixmolang update
+	"fr_backlogin" => "Se connecter",//sixmolang update
+	"fr_backsite" => "Retour vers le Site",//sixmolang update
+	"fr_forgetpassword" => "Oublier votre mot de passe?",//sixmolang update
+	"fr_noaccount" => "Pas encore de compte?",//sixmolang update
+	"fr_createaccount" => "Créer un nouveau compte",//sixmolang update
+	"m_mainsite" => "Site Principale",//sixmolang update
+	"m_badgenew" =>"Nouveau",//sixmolang update
+	"fr_copyright" => "Copyright 2014",//sixmolang update
+	"fr_copyright_rights" => "Tous Droits Reservés.",//sixmolang update
+	"fr_modaltitle" => "Modal title",//sixmolang update
+	"fr_masterrecord" => "Record Master : ",//sixmolang update
+
+	/* Profile */
+	"fr_myprofile" => "Mon Compte",//sixmolang update
+	"fr_submyprofile" => "Voir mes informations",//sixmolang update
+	"fr_profileusername" => "Nom d'utilisateur",//sixmolang update
+	"fr_profileavatar" => "Avatar",//sixmolang update
+	"fr_profileupavatar" => "Charger Votre image Avatar",//sixmolang update
+	"fr_profilechangeavatar" => "Modifier",//sixmolang update
+	"fr_imagedimension" => "Dimension de l'image 80 x 80 px",//sixmolang update
+	"fr_remindnew" => "Nouveau Mot de Passe",//sixmolang update
+	"fr_remindnewagain" => "Réecrire le Mot de Passe",//sixmolang update
+	"fr_remindreset" => "Réinitialiser mon Mot de Passe",//sixmolang update
+	"fr_lastlogin" => "Dernière Connection",//sixmolang update
 );
