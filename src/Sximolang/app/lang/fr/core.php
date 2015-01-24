@@ -51,17 +51,18 @@ return array(
 	"m_menu" => "Gestion de Menu",
 	"m_logs" => "Journal d'activité",
 	"m_codebuilder" => "Générateur de Code",
-	"m_blastemail" => "Explosion Email",
+	"m_blastemail" => "Email de masse",
 	"m_myaccount" => "Mon Compte",
 	"m_logout" => "Déconnexion",
 	"m_profile" => "Profil",
 	"m_manual" => "Guide d'utilisation",
 
 	/* Setting page translation */
-	"t_generalsetting" => "General Settings", //updated apidevlab
-	"t_generalsettingsmall" => "Manage Settings Configuration", // updated apidevlab
-	"t_blastemail" => "Blast Email", // updated apidevlab
-	"t_blastemailsmall" => "Send Bulk Email",
+	"t_generaltitle" => "Configuration Générale",
+	"t_generalsetting" => "Paramètres Généraux", //updated apidevlab
+	"t_generalsettingsmall" => "Gérer les paramètres du site", // updated apidevlab
+	"t_blastemail" => "Email de masse", // updated apidevlab
+	"t_blastemailsmall" => "Envoyer vos Emailings",
 	"t_emailtemplate" => "Email Templates",
 	"t_emailtemplatesmall" => "Manage Email Templates", // updated apidevlab
 	"t_loginsecurity" => "Login & Security", // updated apidevlab
@@ -70,27 +71,41 @@ return array(
 	"t_lfb" => "Login via Facebook", // updated apidevlab
 	"t_lgoogle" => "Login via Google", // updated apidevlab
 	"t_ltwit" => "Login via Twitter", // updated apidevlab
-	"tab_siteinfo" => "General Settings", // Site Info updated apidevlab
+	"tab_siteinfo" => "Paramètres Généraux", // Site Info updated apidevlab
 	"tab_loginsecurity" => "Login & Security",
-	"tab_email" => "Email Templates", // updated apidevlab
-	"fr_appname" => "Application Name ",
-	"fr_appdesc" => "Application Desc",
-	"fr_comname" => "Company Name ",
-	"fr_emailsys" => "Email System ",
-	"fr_emailmessage" => "Email Message ",
-	"fr_enable" => "Enable",
-	"fr_mainlanguage" => "Main Language",
+	"tab_email" => "Modèle d'envoie d'email", // updated apidevlab
+	"fr_appname" => "Now du Site ",
+	"fr_appdesc" => "Description du Site",
+	"fr_comname" => "Nom de l'entreprise",
+	"fr_emailsys" => "Courriel Générale",
+	"fr_emailmessage" => "Rédigez votre message",
+	"fr_enable" => "Activer",
+	"fr_mainlanguage" => "Langue Principale",
 	"fr_appid" => "APP ID",
-	"fr_secret" => "SECRET NUMBER",
-	"fr_registrationdefault" => "Default Group Registration ",
-	"fr_registrationsetting" => "Registration Setting",
-	"fr_registration" => "Registration",
-	"fr_registrationauto" => "Automatic activation ",
-	"fr_registrationmanual" => "Manual activation ",
-	"fr_registrationemail" => "Email with activation link ",
-	"fr_emailsubject" => "Subject",
-	"fr_emailsendto" => "Send To",
-	"fr_emailtag" => "You Can Use",
+	"fr_secret" => "NUMÉRO SECRET",
+	"fr_registrationdefault" => "Groupe par défault d'inscription",
+	"fr_registrationsetting" => "Paramètre d'inscription",
+	"fr_registration" => "Inscription",
+	"fr_registrationauto" => "Activation automatique",
+	"fr_registrationmanual" => "Activation manuelle",
+	"fr_registrationemail" => "E-mail avec le lien d'activation",
+	"fr_emailsubject" => "Objet",
+	"fr_emailsendto" => "Envoyer à",
+	"fr_emailtag" => "Vous pouvez utiliser",
+		
+	"emailtemplate_maintitle" => "Modèle d'envoie de mail lors de la création d'un nouveau compte enregisté",//sixmolang update
+	"fr_multilang" => "Multilingue",
+	"fr_submultilang" => "Uniquement pour l'interface du site",
+	"fr_templatechoice" => "Modèle du Frontend",
+	"fr_metakey" => "Meta Clés",
+	"fr_metadescription" => "Meta Description",
+
+	"fr_logstitle" => "Logs",
+	"fr_logsview" => "Voir tous les Logs",
+	"fr_logserrors" => "Erreurs Logs",
+	"fr_logssessions" => "Modèle de la session cache",
+	"fr_logstemplate" => "Modèle du Cache",
+	"fr_logsclear" => "Effacer le cache & logs",
 
 	/* Language */
 	"config_language" => "Gestionnaire de langue",
@@ -106,28 +121,28 @@ return array(
 	"config_lang_subtitle" => "Gérer les langues",
 
 	/* submit */
-	"sb_savechanges" => "Save Changes",
-	"sb_send" => "Send",
-	"sb_save" => "Save",
-	"sb_apply" => "Apply Change(s)",
-	"sb_submit" => "Submit",
-	"sb_cancel" => "Cancel",
+	"sb_savechanges" => "Sauvegarder les Modifications",
+	"sb_send" => "Envoyer",
+	"sb_save" => "Sauvegarder",
+	"sb_apply" => "Appliquer les changements",
+	"sb_submit" => "Soumettre",
+	"sb_cancel" => "Annuler",
 
 	/* button */
-	"btn_back" => "Back",
+	"btn_back" => "Retour",
 	"btn_action" => "Action",
-	"btn_search" => "Search",
-	"btn_download" => "Download",
+	"btn_search" => "Rechercher",
+	"btn_download" => "Télécharger",
 	"btn_config" => "Configuration",
-	"btn_create" => "Create",
-	"btn_remove" => "Remove",
-	"btn_edit" => "Edit",
-	"btn_view" => "View",
-	"btn_typesearch" => "Type & Enter",    // updated apidevlab
+	"btn_create" => "Créer",
+	"btn_remove" => "Supprimer",
+	"btn_edit" => "Editer",
+	"btn_view" => "Vue",
+	"btn_typesearch" => "Ecrire & Entrer",    // updated apidevlab
 
 	/* Core Module */
-	"t_menu" => "Menu Management",
-	"t_menusmall" => "List Of All Menu",
+	"t_menu" => "Gestion de Menu",
+	"t_menusmall" => "Liste de Menus",
 	"t_tipsdrag" => "Drag and Drop to reorder menu list", // updated apidevlab
 	"t_tipsnote" => "Note!, Menus only support 3 levels ", // updated apidevlab
 	"tab_topmenu" => "Top Menu",
@@ -168,4 +183,24 @@ return array(
 	"note_success" => "Saved successfully!", // updated apidevlab
 	"note_error" => "The following errors occurred !",
 	"note_success_delete" => "Removed successfully!",    // updated apidevlab
+
+	/* Admin/Config */
+
+	"blast_status" => "États",
+	"blast_status_all" => "Tous les états",
+	"blast_active" => "Confirmé",
+	"blast_unconfirmed" => "Non Confirmé",
+	"blast_blocked" => "Bloqué",
+	"dashboard_maintitle" => "Tableau de Bord",
+	"dashboard_subtitle" => "Sommaire du Site",
+	"dashboard_mainmenu" => "Accueil",
+	"dashboard_submenu" => "Votre Tableau de Bord",
+	"dashboard_module_01" => "Modules",
+	"dashboard_submodule_01" => "Gérer les modules existants ou en créer un nouveau",
+	"dashboard_module_02" => "Paramètre",
+	"dashboard_submodule_02" => "Configuration du système de connexion, nom du site, email, etc.",
+	"dashboard_module_03" => "Gestion de Menu",
+	"dashboard_submodule_03" => "Gérer les Menus pour votre interface d'application ou backend",
+	"dashboard_module_04" => "Utulisateurs & Groupes",
+	"dashboard_submodule_04" => "Gérer les groupes et les utilisateurs et leur attribuer des permissions d'accès",
 );
