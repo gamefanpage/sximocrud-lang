@@ -1,8 +1,9 @@
 {
     "name": "sximocrud/lang",
+    "version": "1.0",
     "description": "Language package for sximocrud script",
     "keywords": ["lang", "crud", "laravel", "sximo", "cms"],
-    "license": "Apache license",
+    "license": "MIT",
     "authors": [
         {
             "name": "Daniel Dourdaine",
