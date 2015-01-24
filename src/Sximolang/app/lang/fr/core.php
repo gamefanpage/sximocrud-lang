@@ -58,7 +58,7 @@ return array(
 	"m_manual" => "Guide d'utilisation",
 
 	/* Setting page translation */
-	"t_generaltitle" => "Configuration Générale",
+	"t_generaltitle" => "Configuration Générale",//sixmolang update
 	"t_generalsetting" => "Paramètres Généraux", //updated apidevlab
 	"t_generalsettingsmall" => "Gérer les paramètres du site", // updated apidevlab
 	"t_blastemail" => "Email de masse", // updated apidevlab
@@ -94,18 +94,18 @@ return array(
 	"fr_emailtag" => "Vous pouvez utiliser",
 		
 	"emailtemplate_maintitle" => "Modèle d'envoie de mail lors de la création d'un nouveau compte enregisté",//sixmolang update
-	"fr_multilang" => "Multilingue",
-	"fr_submultilang" => "Uniquement pour l'interface du site",
-	"fr_templatechoice" => "Modèle du Frontend",
-	"fr_metakey" => "Meta Clés",
-	"fr_metadescription" => "Meta Description",
+	"fr_multilang" => "Multilingue",//sixmolang update
+	"fr_submultilang" => "Uniquement pour l'interface du site",//sixmolang update
+	"fr_templatechoice" => "Modèle du Frontend",//sixmolang update
+	"fr_metakey" => "Meta Clés",//sixmolang update
+	"fr_metadescription" => "Meta Description",//sixmolang update
 
-	"fr_logstitle" => "Logs",
-	"fr_logsview" => "Voir tous les Logs",
-	"fr_logserrors" => "Erreurs Logs",
-	"fr_logssessions" => "Modèle de la session cache",
-	"fr_logstemplate" => "Modèle du Cache",
-	"fr_logsclear" => "Effacer le cache & logs",
+	"fr_logstitle" => "Logs",//sixmolang update
+	"fr_logsview" => "Voir tous les Logs",//sixmolang update
+	"fr_logserrors" => "Erreurs Logs",//sixmolang update
+	"fr_logssessions" => "Modèle de la session cache",//sixmolang update
+	"fr_logstemplate" => "Modèle du Cache",//sixmolang update
+	"fr_logsclear" => "Effacer le cache & logs",//sixmolang update
 
 	/* Language */
 	"config_language" => "Gestionnaire de langue",
@@ -171,7 +171,6 @@ return array(
 	"fr_modmanualsql" => "Manual Mysql Statment ",
 
 	/*updates	on may ,5 2014 */
-
 	"loginsocial" => "Login via Social Networking", // updated apidevlab
 	"enteremailforgot" => "Enter Your Email Address",
 	"detail" => "View Detail",
@@ -185,22 +184,21 @@ return array(
 	"note_success_delete" => "Removed successfully!",    // updated apidevlab
 
 	/* Admin/Config */
-
-	"blast_status" => "États",
-	"blast_status_all" => "Tous les états",
-	"blast_active" => "Confirmé",
-	"blast_unconfirmed" => "Non Confirmé",
-	"blast_blocked" => "Bloqué",
-	"dashboard_maintitle" => "Tableau de Bord",
-	"dashboard_subtitle" => "Sommaire du Site",
-	"dashboard_mainmenu" => "Accueil",
-	"dashboard_submenu" => "Votre Tableau de Bord",
-	"dashboard_module_01" => "Modules",
-	"dashboard_submodule_01" => "Gérer les modules existants ou en créer un nouveau",
-	"dashboard_module_02" => "Paramètre",
-	"dashboard_submodule_02" => "Configuration du système de connexion, nom du site, email, etc.",
-	"dashboard_module_03" => "Gestion de Menu",
-	"dashboard_submodule_03" => "Gérer les Menus pour votre interface d'application ou backend",
-	"dashboard_module_04" => "Utulisateurs & Groupes",
-	"dashboard_submodule_04" => "Gérer les groupes et les utilisateurs et leur attribuer des permissions d'accès",
+	"blast_status" => "États",//sixmolang update
+	"blast_status_all" => "Tous les états",//sixmolang update
+	"blast_active" => "Confirmé",//sixmolang update
+	"blast_unconfirmed" => "Non Confirmé",//sixmolang update
+	"blast_blocked" => "Bloqué",//sixmolang update
+	"dashboard_maintitle" => "Tableau de Bord",//sixmolang update
+	"dashboard_subtitle" => "Sommaire du Site",//sixmolang update
+	"dashboard_mainmenu" => "Accueil",//sixmolang update
+	"dashboard_submenu" => "Votre Tableau de Bord",//sixmolang update
+	"dashboard_module_01" => "Modules",//sixmolang update
+	"dashboard_submodule_01" => "Gérer les modules existants ou en créer un nouveau",//sixmolang update
+	"dashboard_module_02" => "Paramètre",//sixmolang update
+	"dashboard_submodule_02" => "Configuration du système de connexion, nom du site, email, etc.",//sixmolang update
+	"dashboard_module_03" => "Gestion de Menu",//sixmolang update
+	"dashboard_submodule_03" => "Gérer les Menus pour votre interface d'application ou backend",//sixmolang update
+	"dashboard_module_04" => "Utulisateurs & Groupes",//sixmolang update
+	"dashboard_submodule_04" => "Gérer les groupes et les utilisateurs et leur attribuer des permissions d'accès",//sixmolang update
 );

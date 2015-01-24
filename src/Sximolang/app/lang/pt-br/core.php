@@ -48,16 +48,17 @@ return array(
 	"m_users" => "Usuarios",
 	"m_groups" => "Grupos",
 	"m_pagecms" => "Pagina do  CMS",
-	"m_logs" => "Logs Ativos",
 	"m_menu" => "Gerenciar Menu",
+	"m_logs" => "Logs Ativos",
 	"m_codebuilder" => "Construtor de Codigo",
 	"m_blastemail" => "Email em Massa",
 	"m_myaccount" => "Minha Conta",
+	"m_logout" => "Sair ",
 	"m_profile" => "Perfil",
 	"m_manual" => "Panduan",
-	"m_logout" => "Sair ",
 
 	/* Setting page translation */
+	"t_generaltitle" => "Global Settings",//sixmolang update
 	"t_generalsetting" => "Opções Gerais",
 	"t_generalsettingsmall" => "Gerenciar Configurações Basicas",
 	"t_blastemail" => "Blast Email",
@@ -91,6 +92,20 @@ return array(
 	"fr_emailsubject" => "Assunto",
 	"fr_emailsendto" => "Enviar para",
 	"fr_emailtag" => "Você pode usar",
+
+	"emailtemplate_maintitle" => "New Account Registered Info",//sixmolang update
+	"fr_multilang" => "Multi Language",//sixmolang update
+	"fr_submultilang" => "Only Layout Interface",//sixmolang update
+	"fr_templatechoice" => "Frontend Template",//sixmolang update
+	"fr_metakey" => "Meta Keys",//sixmolang update
+	"fr_metadescription" => "Meta Description",//sixmolang update
+
+	"fr_logstitle" => "Logs",//sixmolang update
+	"fr_logsview" => "View All logs",//sixmolang update
+	"fr_logserrors" => "Errors Logs",//sixmolang update
+	"fr_logssessions" => "Session Cache Template",//sixmolang update
+	"fr_logstemplate" => "Template Cache",//sixmolang update
+	"fr_logsclear" => "Clear cache & logs",//sixmolang update
 
 	/* Language */
 	"config_language" => "Language Manager",
@@ -156,7 +171,6 @@ return array(
 	"fr_modmanualsql" => "SQL Manual ",
 
 	/*updates	on may ,5 2014 */
-
 	"loginsocial" => "Login com  Redes Sociais", // updated apidevlab
 	"enteremailforgot" => "Digite seu email",
 	"detail" => "Ver Detalhes",
@@ -168,4 +182,23 @@ return array(
 	"note_success" => "Dados salvos com sucesso", // updated apidevlab
 	"note_error" => "Ocorreram os seguintes erros!",
 	"note_success_delete" => "Foi removido com sucesso!", // updated apidevlab
+
+	/* Admin/Config */
+	"blast_status" => "Status",//sixmolang update
+	"blast_status_all" => "All Status",//sixmolang update
+	"blast_active" => "Active",//sixmolang update
+	"blast_unconfirmed" => "Unconfirmed",//sixmolang update
+	"blast_blocked" => "Blocked",//sixmolang update
+	"dashboard_maintitle" => "Dashboard",//sixmolang update
+	"dashboard_subtitle" => "Summary info site",//sixmolang update
+	"dashboard_mainmenu" => "Home",//sixmolang update
+	"dashboard_submenu" => "Dashboard",//sixmolang update
+	"dashboard_module_01" => "Module(s)",//sixmolang update
+	"dashboard_submodule_01" => "Manage Existing Modules or Create new one",//sixmolang update
+	"dashboard_module_02" => "Setting",//sixmolang update
+	"dashboard_submodule_02" => "Setting Up your application login option , sitename , email etc.",//sixmolang update
+	"dashboard_module_03" => "Site Menu",//sixmolang update
+	"dashboard_submodule_03" => "Manage Menu for your application frontend or backend",//sixmolang update
+	"dashboard_module_04" => "Users & Groups",//sixmolang update
+	"dashboard_submodule_04" => "Manage groups and users and grant what module and menu are accesible",//sixmolang update
 );

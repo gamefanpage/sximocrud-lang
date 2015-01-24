@@ -58,6 +58,7 @@ return array(
 	"m_manual" => "Manual Guide ",
 
 	/* Setting page translation */
+	"t_generaltitle" => "Global Settings",//sixmolang update
 	"t_generalsetting" => "General Settings", //updated apidevlab
 	"t_generalsettingsmall" => "Manage Settings Configuration", // updated apidevlab
 	"t_blastemail" => "Blast Email", // updated apidevlab
@@ -91,6 +92,20 @@ return array(
 	"fr_emailsubject" => "Subject",
 	"fr_emailsendto" => "Send To",
 	"fr_emailtag" => "You Can Use",
+
+	"emailtemplate_maintitle" => "New Account Registered Info",//sixmolang update
+	"fr_multilang" => "Multi Language",//sixmolang update
+	"fr_submultilang" => "Only Layout Interface",//sixmolang update
+	"fr_templatechoice" => "Frontend Template",//sixmolang update
+	"fr_metakey" => "Meta Keys",//sixmolang update
+	"fr_metadescription" => "Meta Description",//sixmolang update
+
+	"fr_logstitle" => "Logs",//sixmolang update
+	"fr_logsview" => "View All logs",//sixmolang update
+	"fr_logserrors" => "Errors Logs",//sixmolang update
+	"fr_logssessions" => "Session Cache Template",//sixmolang update
+	"fr_logstemplate" => "Template Cache",//sixmolang update
+	"fr_logsclear" => "Clear cache & logs",//sixmolang update
 
 	/* Language */
 	"config_language" => "Language Manager",
@@ -156,7 +171,6 @@ return array(
 	"fr_modmanualsql" => "Manual Mysql Statment ",
 
 	/*updates	on may ,5 2014 */
-
 	"loginsocial" => "Login via Social Networking", // updated apidevlab
 	"enteremailforgot" => "Enter Your Email Address",
 	"detail" => "View Detail",
@@ -168,4 +182,23 @@ return array(
 	"note_success" => "Saved successfully!", // updated apidevlab
 	"note_error" => "The following errors occurred !",
 	"note_success_delete" => "Removed successfully!",    // updated apidevlab
+
+	/* Admin/Config */
+	"blast_status" => "Status",//sixmolang update
+	"blast_status_all" => "All Status",//sixmolang update
+	"blast_active" => "Active",//sixmolang update
+	"blast_unconfirmed" => "Unconfirmed",//sixmolang update
+	"blast_blocked" => "Blocked",//sixmolang update
+	"dashboard_maintitle" => "Dashboard",//sixmolang update
+	"dashboard_subtitle" => "Summary info site",//sixmolang update
+	"dashboard_mainmenu" => "Home",//sixmolang update
+	"dashboard_submenu" => "Dashboard",//sixmolang update
+	"dashboard_module_01" => "Module(s)",//sixmolang update
+	"dashboard_submodule_01" => "Manage Existing Modules or Create new one",//sixmolang update
+	"dashboard_module_02" => "Setting",//sixmolang update
+	"dashboard_submodule_02" => "Setting Up your application login option , sitename , email etc.",//sixmolang update
+	"dashboard_module_03" => "Site Menu",//sixmolang update
+	"dashboard_submodule_03" => "Manage Menu for your application frontend or backend",//sixmolang update
+	"dashboard_module_04" => "Users & Groups",//sixmolang update
+	"dashboard_submodule_04" => "Manage groups and users and grant what module and menu are accesible",//sixmolang update
 );
